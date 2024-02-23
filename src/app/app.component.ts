@@ -7,11 +7,20 @@ import { RouterModule } from '@angular/router';
   imports: [RouterModule],
   template: `
     <h1>{{title}}</h1>
-    <a [routerLink]="['/ej1']" routerLinkActive="router-link-active">Ejemplo1</a> 
+    <ul>
+      <li>
+        <a [routerLink]="['/ej1']" 
+           routerLinkActive="router-link-active">Ejemplo1 - Template-driven (one-way data-binding)</a>
+      </li>
+      <li>
+        <a [routerLink]="['/ej2']" 
+           routerLinkActive="router-link-active">Ejemplo2 - Template-driven (two-way data-binding)</a>
+      </li>
+    </ul>
     <router-outlet />
   `,
   styles: [],
 })
 export class AppComponent {
-  title = 'Pruebas de Formas';
+  title = 'Angular - Ejemplos de Formas';
 }
