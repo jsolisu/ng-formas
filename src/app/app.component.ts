@@ -1,17 +1,17 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet],
+  imports: [RouterModule],
   template: `
-    <h1>Welcome to {{title}}!</h1>
-
+    <h1>{{title}}</h1>
+    <a [routerLink]="['/ej1']" routerLinkActive="router-link-active">Ejemplo1</a> 
     <router-outlet />
   `,
   styles: [],
 })
 export class AppComponent {
-  title = 'ng-formas';
+  title = 'Pruebas de Formas';
 }

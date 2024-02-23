@@ -1,0 +1,14 @@
+<h2>ejemplo1 - Template-driven (one-way data-binding)</h2>
+<!-- Nota: NgForm tiene por selector form, es decir, aunque form es HTML en realidad es Angular.
+     Siempre que se importe FormsModule. -->
+<form (ngSubmit)="submit(userForm.value)" #userForm="ngForm">
+    <div>
+        <label>Usuario:&nbsp;</label><input name="user" ngModel>
+    </div>
+    <div>
+        <label>Contraseña:&nbsp;</label><input name="password" ngModel>
+    </div>
+    <button type="submit">Enviar</button>
+</form>
+
+<p>{{userForm.value | json}}</p>
