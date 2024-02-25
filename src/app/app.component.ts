@@ -16,6 +16,10 @@ import { RouterModule } from '@angular/router';
         <a [routerLink]="['/ej2']" 
            routerLinkActive="router-link-active">Ejemplo2 - Template-driven (two-way data-binding)</a>
       </li>
+      <li>
+        <a [routerLink]="['/ej3']" 
+           routerLinkActive="router-link-active">Ejemplo3 - Code-driven</a>
+      </li>      
     </ul>
     <router-outlet />
   `,
