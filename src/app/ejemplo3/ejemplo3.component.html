@@ -1,1 +1,14 @@
-<p>ejemplo3 works!</p>
+<h2>ejemplo3 - Code-driven</h2>
+<!-- Nota: NgForm tiene por selector form, es decir, aunque form es HTML en realidad es Angular.
+     Siempre que se importe FormsModule. -->
+<form (ngSubmit)="submit()" [formGroup]="userForm">
+    <div>
+        <label>Usuario:&nbsp;</label><input name="user" formControlName="user">
+    </div>
+    <div>
+        <label>Contraseña:&nbsp;</label><input name="password" formControlName="password">
+    </div>
+    <button type="submit">Enviar</button>
+</form>
+
+<p>{{this.userForm.value | json}}</p>
