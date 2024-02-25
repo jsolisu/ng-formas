@@ -17,7 +17,7 @@ export class Ejemplo3Component {
 
   constructor(fb: FormBuilder) {
     this.userForm = fb.group({
-      user: '',
+      user: '', // Equivale a fb.control(''), new FormControl('') o ['']
       password: ''
     });
   }
