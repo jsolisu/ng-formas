@@ -1,0 +1,27 @@
+<h2>ejemplo4 - Validation</h2>
+<!-- Nota: NgForm tiene por selector form, es decir, aunque form es HTML en realidad es Angular.
+     Siempre que se importe FormsModule. -->
+<form (ngSubmit)="submit()" [formGroup]="userForm">
+    <div>
+        <label>Usuario:&nbsp;</label><input name="user" formControlName="user">
+        <div *ngIf="userForm.controls.user.touched && userForm.controls.user.hasError('required')">
+            El usuario es requerido.
+        </div>
+        <div
+            *ngIf="userForm.controls.user.touched && userForm.controls.user.hasError('minlength') || userForm.controls.user.hasError('maxlength')">
+            El usuario debe tener una longitud entre 5 y 32.
+        </div>
+    </div>
+    <div>
+        <label>Nombre:&nbsp;</label><input name="nombre" formControlName="nombre">
+    </div>
+    <div>
+        <label>Contraseña:&nbsp;</label><input name="password" formControlName="password">
+        <div *ngIf="userForm.controls.password.touched && userForm.controls.password.hasError('required')">
+            La contraseña es requerida.
+        </div>
+    </div>
+    <button type="submit">Enviar</button>
+</form>
+
+<p>{{this.userForm.value | json}}</p>
