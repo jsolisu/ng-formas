@@ -21,7 +21,7 @@
             La contraseña es requerida.
         </div>
     </div>
-    <button type="submit">Enviar</button>
+    <button type="submit" [disabled]="userForm.invalid">Enviar</button>
 </form>
 
 <p>{{this.userForm.value | json}}</p>
