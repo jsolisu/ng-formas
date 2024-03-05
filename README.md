@@ -4,3 +4,4 @@
 * Ejemplo2 - Template-driven (two-way data-binding).
 * Ejemplo3 - Code-driven.
 * Ejemplo4 - Code-driven - Validation.
+* Ejemplo5 - Custom validator.

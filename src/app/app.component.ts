@@ -23,7 +23,11 @@ import { RouterModule } from '@angular/router';
       <li>
         <a [routerLink]="['/ej4']" 
            routerLinkActive="router-link-active">Ejemplo4 - Validation</a>
-      </li>      
+      </li>  
+      <li>
+        <a [routerLink]="['/ej5']" 
+           routerLinkActive="router-link-active">Ejemplo5 - Custom validator</a>
+      </li>  
     </ul>
     <router-outlet />
   `,
