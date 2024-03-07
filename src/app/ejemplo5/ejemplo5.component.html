@@ -20,6 +20,9 @@
     </div>
     <div>
         <label>Nombre:&nbsp;</label><input name="nombre" formControlName="nombre">
+        <div *ngIf="userForm.controls.nombre.touched && userForm.controls.nombre.hasError('incompleto')">
+            El nombre debe contener al menos un nombre y apellido.
+        </div>
     </div>
     <button type="submit" [disabled]="userForm.invalid">Enviar</button>
 </form>
