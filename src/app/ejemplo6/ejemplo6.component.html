@@ -1,1 +1,30 @@
-<p>ejemplo6 works!</p>
+<h2>ejemplo6 - Grouping fields</h2>
+<!-- Nota: NgForm tiene por selector form, es decir, aunque form es HTML en realidad es Angular.
+     Siempre que se importe FormsModule. -->
+<form (ngSubmit)="submit()" [formGroup]="userForm">
+    <div>
+        <label>Usuario:&nbsp;</label><input name="user" formControlName="user">
+        <div *ngIf="userForm.controls.user.dirty && userForm.controls.user.hasError('required')">
+            El usuario es requerido.
+        </div>
+        <div
+            *ngIf="userForm.controls.user.dirty && userForm.controls.user.hasError('minlength') || userForm.controls.user.hasError('maxlength')">
+            El usuario debe tener una longitud entre 5 y 32.
+        </div>
+    </div>
+    <div formGroupName="passwordGroup">
+        <div>
+            <label>Password:&nbsp;</label><input type="password" name="password" formControlName="password">
+        </div>
+        <div>
+            <label>Confirmar password:&nbsp;</label><input type="password" name="passwordConfirm"
+                formControlName="passwordConfirm">
+        </div>
+        <div *ngIf="userForm.controls.passwordGroup.dirty && userForm.controls.passwordGroup.hasError('errorIgualdad')">
+            La contraseña es diferente.
+        </div>
+    </div>
+    <button type="submit" [disabled]="userForm.invalid">Enviar</button>
+</form>
+
+<p>{{this.userForm.value | json}}</p>
