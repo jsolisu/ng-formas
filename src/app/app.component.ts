@@ -28,6 +28,10 @@ import { RouterModule } from '@angular/router';
         <a [routerLink]="['/ej5']" 
            routerLinkActive="router-link-active">Ejemplo5 - Custom validator</a>
       </li>  
+      <li>
+        <a [routerLink]="['/ej6']" 
+           routerLinkActive="router-link-active">Ejemplo6 - Grouping fields</a>
+      </li>  
     </ul>
     <router-outlet />
   `,
