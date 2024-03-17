@@ -1,0 +1,25 @@
+<h2>ejemplo7 - Changes</h2>
+<!-- Nota: NgForm tiene por selector form, es decir, aunque form es HTML en realidad es Angular.
+     Siempre que se importe FormsModule. -->
+<form (ngSubmit)="submit()" [formGroup]="userForm">
+    <div>
+        <div>
+            <label>Usuario:&nbsp;</label><input name="user" formControlName="user">
+        </div>
+        <div *ngIf="userForm.controls.user.dirty && userForm.controls.user.hasError('required')">
+            El usuario es requerido.
+        </div>
+    </div>
+    <div>
+        <div>
+            <label>Contraseña:&nbsp;</label><input name="password" formControlName="password">
+        </div>
+        <div *ngIf="userForm.controls.password.dirty && userForm.controls.password.hasError('required')">
+            La contraseña es requerida.
+        </div>
+        <p>Longitud = {{passwordLength}}</p>
+    </div>
+    <button type="submit" [disabled]="userForm.invalid">Enviar</button>
+</form>
+
+<p>{{this.userForm.value | json}}</p>

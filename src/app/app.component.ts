@@ -32,6 +32,10 @@ import { RouterModule } from '@angular/router';
         <a [routerLink]="['/ej6']" 
            routerLinkActive="router-link-active">Ejemplo6 - Grouping fields</a>
       </li>  
+      <li>
+        <a [routerLink]="['/ej7']" 
+           routerLinkActive="router-link-active">Ejemplo7 - Changes</a>
+      </li>  
     </ul>
     <router-outlet />
   `,

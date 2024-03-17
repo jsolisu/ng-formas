@@ -5,6 +5,7 @@ import { Ejemplo3Component } from './ejemplo3/ejemplo3.component';
 import { Ejemplo4Component } from './ejemplo4/ejemplo4.component';
 import { Ejemplo5Component } from './ejemplo5/ejemplo5.component';
 import { Ejemplo6Component } from './ejemplo6/ejemplo6.component';
+import { Ejemplo7Component } from './ejemplo7/ejemplo7.component';
 
 export const routes: Routes = [
     { path: 'ej1', component: Ejemplo1Component },
@@ -12,5 +13,6 @@ export const routes: Routes = [
     { path: 'ej3', component: Ejemplo3Component },
     { path: 'ej4', component: Ejemplo4Component },
     { path: 'ej5', component: Ejemplo5Component },
-    { path: 'ej6', component: Ejemplo6Component }
+    { path: 'ej6', component: Ejemplo6Component },
+    { path: 'ej7', component: Ejemplo7Component }
 ];
