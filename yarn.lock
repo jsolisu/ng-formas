@@ -72,7 +72,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/animations@npm:^18.1.0":
+"@angular/animations@npm:^18.2.8":
   version: 18.2.8
   resolution: "@angular/animations@npm:18.2.8"
   dependencies:
@@ -83,7 +83,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/build@npm:^18.1.0":
+"@angular/build@npm:^18.2.9":
   version: 18.2.9
   resolution: "@angular/build@npm:18.2.9"
   dependencies:
@@ -143,7 +143,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/cli@npm:^18.1.0":
+"@angular/cli@npm:^18.2.9":
   version: 18.2.9
   resolution: "@angular/cli@npm:18.2.9"
   dependencies:
@@ -175,7 +175,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/common@npm:^18.1.0":
+"@angular/common@npm:^18.2.8":
   version: 18.2.8
   resolution: "@angular/common@npm:18.2.8"
   dependencies:
@@ -187,7 +187,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/compiler-cli@npm:^18.1.0":
+"@angular/compiler-cli@npm:^18.2.8":
   version: 18.2.8
   resolution: "@angular/compiler-cli@npm:18.2.8"
   dependencies:
@@ -210,7 +210,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/compiler@npm:^18.1.0":
+"@angular/compiler@npm:^18.2.8":
   version: 18.2.8
   resolution: "@angular/compiler@npm:18.2.8"
   dependencies:
@@ -224,7 +224,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/core@npm:^18.1.0":
+"@angular/core@npm:^18.2.8":
   version: 18.2.8
   resolution: "@angular/core@npm:18.2.8"
   dependencies:
@@ -236,7 +236,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/forms@npm:^18.1.0":
+"@angular/forms@npm:^18.2.8":
   version: 18.2.8
   resolution: "@angular/forms@npm:18.2.8"
   dependencies:
@@ -250,7 +250,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/platform-browser-dynamic@npm:^18.1.0":
+"@angular/platform-browser-dynamic@npm:^18.2.8":
   version: 18.2.8
   resolution: "@angular/platform-browser-dynamic@npm:18.2.8"
   dependencies:
@@ -264,7 +264,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/platform-browser@npm:^18.1.0":
+"@angular/platform-browser@npm:^18.2.8":
   version: 18.2.8
   resolution: "@angular/platform-browser@npm:18.2.8"
   dependencies:
@@ -280,7 +280,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/router@npm:^18.1.0":
+"@angular/router@npm:^18.2.8":
   version: 18.2.8
   resolution: "@angular/router@npm:18.2.8"
   dependencies:
@@ -3310,21 +3310,21 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "ng-formas@workspace:."
   dependencies:
-    "@angular/animations": "npm:^18.1.0"
-    "@angular/build": "npm:^18.1.0"
-    "@angular/cli": "npm:^18.1.0"
-    "@angular/common": "npm:^18.1.0"
-    "@angular/compiler": "npm:^18.1.0"
-    "@angular/compiler-cli": "npm:^18.1.0"
-    "@angular/core": "npm:^18.1.0"
-    "@angular/forms": "npm:^18.1.0"
-    "@angular/platform-browser": "npm:^18.1.0"
-    "@angular/platform-browser-dynamic": "npm:^18.1.0"
-    "@angular/router": "npm:^18.1.0"
+    "@angular/animations": "npm:^18.2.8"
+    "@angular/build": "npm:^18.2.9"
+    "@angular/cli": "npm:^18.2.9"
+    "@angular/common": "npm:^18.2.8"
+    "@angular/compiler": "npm:^18.2.8"
+    "@angular/compiler-cli": "npm:^18.2.8"
+    "@angular/core": "npm:^18.2.8"
+    "@angular/forms": "npm:^18.2.8"
+    "@angular/platform-browser": "npm:^18.2.8"
+    "@angular/platform-browser-dynamic": "npm:^18.2.8"
+    "@angular/router": "npm:^18.2.8"
     rxjs: "npm:~7.8.1"
-    tslib: "npm:^2.6.2"
-    typescript: "npm:^5.4.5"
-    zone.js: "npm:~0.14.4"
+    tslib: "npm:^2.8.0"
+    typescript: "npm:>=5.4.0 <5.6.0-0"
+    zone.js: "npm:~0.14.10"
   languageName: unknown
   linkType: soft
 
@@ -4338,7 +4338,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tslib@npm:^2.1.0, tslib@npm:^2.3.0, tslib@npm:^2.6.2":
+"tslib@npm:^2.1.0, tslib@npm:^2.3.0, tslib@npm:^2.8.0":
   version: 2.8.0
   resolution: "tslib@npm:2.8.0"
   checksum: 10c0/31e4d14dc1355e9b89e4d3c893a18abb7f90b6886b089c2da91224d0a7752c79f3ddc41bc1aa0a588ac895bd97bb99c5bc2bfdb2f86de849f31caeb3ba79bbe5
@@ -4363,23 +4363,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:^5.4.5":
-  version: 5.6.3
-  resolution: "typescript@npm:5.6.3"
+"typescript@npm:>=5.4.0 <5.6.0-0":
+  version: 5.5.4
+  resolution: "typescript@npm:5.5.4"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 10c0/44f61d3fb15c35359bc60399cb8127c30bae554cd555b8e2b46d68fa79d680354b83320ad419ff1b81a0bdf324197b29affe6cc28988cd6a74d4ac60c94f9799
+  checksum: 10c0/422be60f89e661eab29ac488c974b6cc0a660fb2228003b297c3d10c32c90f3bcffc1009b43876a082515a3c376b1eefcce823d6e78982e6878408b9a923199c
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@npm%3A^5.4.5#optional!builtin<compat/typescript>":
-  version: 5.6.3
-  resolution: "typescript@patch:typescript@npm%3A5.6.3#optional!builtin<compat/typescript>::version=5.6.3&hash=8c6c40"
+"typescript@patch:typescript@npm%3A>=5.4.0 <5.6.0-0#optional!builtin<compat/typescript>":
+  version: 5.5.4
+  resolution: "typescript@patch:typescript@npm%3A5.5.4#optional!builtin<compat/typescript>::version=5.5.4&hash=379a07"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 10c0/7c9d2e07c81226d60435939618c91ec2ff0b75fbfa106eec3430f0fcf93a584bc6c73176676f532d78c3594fe28a54b36eb40b3d75593071a7ec91301533ace7
+  checksum: 10c0/73409d7b9196a5a1217b3aaad929bf76294d3ce7d6e9766dd880ece296ee91cf7d7db6b16c6c6c630ee5096eccde726c0ef17c7dfa52b01a243e57ae1f09ef07
   languageName: node
   linkType: hard
 
@@ -4631,7 +4631,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"zone.js@npm:~0.14.4":
+"zone.js@npm:~0.14.10":
   version: 0.14.10
   resolution: "zone.js@npm:0.14.10"
   checksum: 10c0/61283d152cb1eff899bae61621dccd572aa9f47e0c60c04b249bf86b43e3e4ba627bf6dba371b725023a4f302f39e554d7bf2d25bbf40c869c6c52f774b17e8b
