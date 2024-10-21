@@ -3323,7 +3323,7 @@ __metadata:
     "@angular/router": "npm:^18.2.8"
     rxjs: "npm:~7.8.1"
     tslib: "npm:^2.8.0"
-    typescript: "npm:>=5.4.0 <5.6.0-0"
+    typescript: "npm:5.5.4"
     zone.js: "npm:~0.14.10"
   languageName: unknown
   linkType: soft
@@ -4363,7 +4363,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:>=5.4.0 <5.6.0-0":
+"typescript@npm:5.5.4":
   version: 5.5.4
   resolution: "typescript@npm:5.5.4"
   bin:
@@ -4373,7 +4373,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@npm%3A>=5.4.0 <5.6.0-0#optional!builtin<compat/typescript>":
+"typescript@patch:typescript@npm%3A5.5.4#optional!builtin<compat/typescript>":
   version: 5.5.4
   resolution: "typescript@patch:typescript@npm%3A5.5.4#optional!builtin<compat/typescript>::version=5.5.4&hash=379a07"
   bin:
