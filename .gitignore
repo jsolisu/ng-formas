@@ -8,8 +8,6 @@
 
 # Node
 /node_modules
-npm-debug.log
-yarn-error.log
 
 # IDEs and editors
 .idea/
@@ -41,6 +39,8 @@ testem.log
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+npm-debug.log
+yarn-error.log
 
 # System files
 .DS_Store
