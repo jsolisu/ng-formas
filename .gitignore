@@ -36,6 +36,11 @@ yarn-error.log
 /libpeerconnection.log
 testem.log
 /typings
+.yarn/*
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
 
 # System files
 .DS_Store
