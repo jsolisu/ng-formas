@@ -4,11 +4,10 @@ import { FormsModule } from '@angular/forms';
 import { UserModel } from './user.model';
 
 @Component({
-  selector: 'app-ejemplo2',
-  standalone: true,
-  imports: [CommonModule, FormsModule],
-  templateUrl: './ejemplo2.component.html',
-  styleUrl: './ejemplo2.component.scss'
+    selector: 'app-ejemplo2',
+    imports: [CommonModule, FormsModule],
+    templateUrl: './ejemplo2.component.html',
+    styleUrl: './ejemplo2.component.scss'
 })
 export class Ejemplo2Component {
   user: UserModel = {

@@ -2,10 +2,9 @@ import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
 @Component({
-  selector: 'app-root',
-  standalone: true,
-  imports: [RouterModule],
-  template: `
+    selector: 'app-root',
+    imports: [RouterModule],
+    template: `
     <h1>{{title}}</h1>
     <ul>
       <li>
@@ -39,7 +38,7 @@ import { RouterModule } from '@angular/router';
     </ul>
     <router-outlet />
   `,
-  styles: [],
+    styles: []
 })
 export class AppComponent {
   title = 'Angular - Ejemplos de Formas';

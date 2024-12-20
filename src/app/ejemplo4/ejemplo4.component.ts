@@ -3,11 +3,10 @@ import { Component } from '@angular/core';
 import { FormBuilder, FormControl, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
 
 @Component({
-  selector: 'app-ejemplo4',
-  standalone: true,
-  imports: [CommonModule, ReactiveFormsModule],
-  templateUrl: './ejemplo4.component.html',
-  styleUrl: './ejemplo4.component.scss'
+    selector: 'app-ejemplo4',
+    imports: [CommonModule, ReactiveFormsModule],
+    templateUrl: './ejemplo4.component.html',
+    styleUrl: './ejemplo4.component.scss'
 })
 export class Ejemplo4Component {
   userForm: FormGroup<{

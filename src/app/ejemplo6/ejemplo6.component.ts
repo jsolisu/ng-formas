@@ -6,11 +6,10 @@ import {
 } from '@angular/forms';
 
 @Component({
-  selector: 'app-ejemplo6',
-  standalone: true,
-  imports: [CommonModule, ReactiveFormsModule],
-  templateUrl: './ejemplo6.component.html',
-  styleUrl: './ejemplo6.component.scss'
+    selector: 'app-ejemplo6',
+    imports: [CommonModule, ReactiveFormsModule],
+    templateUrl: './ejemplo6.component.html',
+    styleUrl: './ejemplo6.component.scss'
 })
 export class Ejemplo6Component {
   userForm: FormGroup<{

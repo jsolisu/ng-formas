@@ -4,11 +4,10 @@ import { FormBuilder, FormControl, FormGroup, ReactiveFormsModule, Validators } 
 import { debounceTime, distinctUntilChanged } from 'rxjs';
 
 @Component({
-  selector: 'app-ejemplo7',
-  standalone: true,
-  imports: [CommonModule, ReactiveFormsModule],
-  templateUrl: './ejemplo7.component.html',
-  styleUrl: './ejemplo7.component.scss'
+    selector: 'app-ejemplo7',
+    imports: [CommonModule, ReactiveFormsModule],
+    templateUrl: './ejemplo7.component.html',
+    styleUrl: './ejemplo7.component.scss'
 })
 export class Ejemplo7Component {
   userForm: FormGroup<{
